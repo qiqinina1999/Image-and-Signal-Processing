@@ -4,12 +4,12 @@ clc;
 [x,Fs]=audioread('song.wav');
 rp = 3; %passband ripple
 rs = 60; %stopband ripple
-wp = 9500; %passband frequency
-ws = 8000; %stopband frequency
+wp = 9500; %passband frequency %% lowpass wp=250
+ws = 8000; %stopband frequency %% lowpass wp=2000
 w1 = 2*wp/Fs;
 w2 = 2*ws/Fs;
 [n,wn] = buttord(w1,w2,rp,rs);
-[b,a] = butter(n,wn,'high');
+[b,a] = butter(n,wn,'high'); %lowpass [b,a] = butter(n,wn);
 
 %1-1 plot magnitude and phase response
 
