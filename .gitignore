@@ -1,0 +1,10 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.mat~
+*.mex*
+*.slxc
+
+# MATLAB cache and generated files
+slprj/
+codegen/
