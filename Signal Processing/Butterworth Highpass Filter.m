@@ -1,3 +1,7 @@
+%% Project: Audio Signal Processing
+%% Description:
+%% This project implements digital audio signal processing using a Butterworth high-pass(low-pass) filter in MATLAB as part of academic coursework.
+
 clear all;
 clc;
 
