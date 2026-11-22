@@ -52,9 +52,3 @@ c=colorbar('Ytick',[1:4],'Yticklabel',{'Building','Water','Vegetation','Road'});
 axis image
 set(c,'TickLength',[0,0]);
 title('Supervised pure pixel classification')
-
-%Vegetation: most of vegetation pixels are classified correctly, but its
-%edge, such as the pixel in the edge of park, are not classified clearly.
-%I guess the reason is these pixel has some of vegetation but some are not, 
-%some of these pixels are classified as vegetation, some of them may be
-%classified as others.
