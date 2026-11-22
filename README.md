@@ -1,12 +1,9 @@
-# Image-and-Signal-Processing
-MATLAB-based image and digital signal processing projects, including image enhancement, filtering, Fourier transform, and audio processing.
-
+# Image-and-Signal-Processing 
+MATLAB-based image and digital signal processing projects, including image enhancement, filtering, Fourier transform, image classification, and audio processing.
 # Project
 ## 1.Image Processing
 
-• Color Image Enhancement
-
-• Contrast Stretching
+• Image Enhancement and Filtering
 
 • Fourier Transform and Frequency Domain Analysis
 
@@ -14,15 +11,15 @@ MATLAB-based image and digital signal processing projects, including image enhan
 
 • Image Fusion and Color Transformation
 
-• Pyramid Methods (Gaussian and Laplacian pyramid)
+• Gaussian and Laplacian Pyramid
 
 • Spatial Domain Image Filtering
 
-• Supervised and Unsuperived Mixed Pixel Classificaiton
+• Supervised and Unsupervised Mixed Pixel Classification
 
-• Supervised and Unsuperived Pure Pixel Classification
+• Supervised and Unsupervised Pure Pixel Classification
 
-• Wavelet Gaussian
+• Wavelet Transform and Image Decomposition
 
 ## 2.Signal Processing
 
