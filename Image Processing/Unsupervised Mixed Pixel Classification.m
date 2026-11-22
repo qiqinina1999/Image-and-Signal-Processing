@@ -1,3 +1,7 @@
+%% Project: Unsupervised Mixed Pixel Classification
+%% Description: This project implements unsupervised mixed pixel classification using an orthogonal subspace method and least squares estimation in MATLAB as part of academic coursework.
+
+
 close all;
 clc;
 
