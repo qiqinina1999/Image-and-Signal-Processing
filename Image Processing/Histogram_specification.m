@@ -54,4 +54,3 @@ title('Original image')
 subplot(2,2,3), imagesc(B1) 
 title('Histogram equalization') 
 saveas(gcf,'Histogram Equalization landscape.jpg')
-%Similar grayscale pixels of landscape photos which is nearby are considered one grayscale.
