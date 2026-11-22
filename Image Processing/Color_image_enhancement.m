@@ -15,7 +15,7 @@ figure(2)
 subplot(2,2,1) ,imagesc(B),colormap(gray) 
 title('Original figure')
 B=imread('landscape.JPG');
-B=rgb2gray(B); % tranform into grey levels
+B=rgb2gray(B); 
 B=double(B); 
 AA=ones(size(A));
 BB=ones(size(B));
@@ -79,8 +79,6 @@ figure(1)
 subplot(2,2,4), imagesc(A1)
 title('Histogram equalization')
 saveas(gcf,'Color image enhancement human.jpg')
-% After image-processed in the human figure, it looks like their eyes and their shadows are more visible
-% and facial expressions are more clearly defined.
 
 [Y,X]=hist(B(:),x);
 Y=Y/size(B,1)/size(B,2);
@@ -94,6 +92,3 @@ figure(2)
 subplot(2,2,4), imagesc(B1)
 title('Histogram equalization')
 saveas(gcf,'Color image enhancement landscape.jpg')
-%After image processing in the landscape figure becomes darker overall
-%the black and white contrast is slightly increased
-%and the direction of the sun beam is clearer
