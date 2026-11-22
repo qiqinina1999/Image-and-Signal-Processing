@@ -1,3 +1,6 @@
+%% Project: Supervised Pure Pixel Classification
+%% Description: This project implements supervised pure pixel classification using the minimum distance method in MATLAB as part of academic coursework.
+
 close all;
 clc;
 
