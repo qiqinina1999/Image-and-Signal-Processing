@@ -82,9 +82,3 @@ subplot(2,2,4)
 imagesc(FCR);
 title('Color transform')
 saveas(gcf,'Q1.jpg')
-
-% After fusion, the white and black contrast becomes more obivous
-% After PCA, Image sharpness becomes lower and the white pixels become a
-% little gray.
-% The difference: Color transform is focused on the change of brightness
-% and keep the color same, but PCA has to change on the detail of image.
