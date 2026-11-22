@@ -36,14 +36,3 @@ colormap(gray)
 
 sgtitle('Supervised mixed pixel classification')
 saveas(gcf,'Supervised mixed pixel classification.jpg')
-
-% Figure 1 can see the distribution of buildings.
-% Figure 2 can see the distribution of the river, some of regions look like
-% has some water, but I'm not sure these regions are water or classified
-% incorrectly.
-% Figure 3 can see the distribution of vegetation, and the vegetation in the park are classified well.
-% Figure 4 can see the distribution of roads, but in the city ​​center,
-% these road can not be classified so clearly, it showed like some points.
-% By using supervised mixed pixel classification, I think it is similar to
-% supervised pure pixel classification, and show better result than
-% unsupervised mixed pixel classification.
