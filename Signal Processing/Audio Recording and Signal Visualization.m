@@ -1,3 +1,6 @@
+Project: Audio Recording and Signal Analysis
+Description: This project implements audio recording and basic signal analysis using MATLAB as part of academic coursework.
+
 x=audiorecorder(16000,16,1);
 disp('start your speech')
 recordblocking(x,10)
