@@ -1,3 +1,7 @@
+%% Project: Spatial Domain Image Filtering
+%% Description: This project implements spatial domain image filtering using MATLAB as part of academic coursework.
+
+
 close all;
 clc;
 
