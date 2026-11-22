@@ -1,3 +1,7 @@
+%% Project: Gaussian and Laplacian Pyramid
+%% Description: This project implements multi-scale image decomposition and reconstruction using MATLAB as part of academic coursework.
+
+
 clear
 close all
 
