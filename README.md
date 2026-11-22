@@ -5,3 +5,5 @@ MATLAB-based image and digital signal processing projects, including image enhan
 ## Image Processing
 
 ## Signal Processing
+1. Audio Recording and Signal Analysis
+2. Butterworth High-pass(Low-pass) Filter
