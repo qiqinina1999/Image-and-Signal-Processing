@@ -56,9 +56,3 @@ title('Original image')
 subplot(2,2,2), imagesc(B1)
 title('Histogram equalization')
 saveas(gcf,'Histogram equalization landscape.jpg')
-
-%The black and white contrast of landscape photos is increased, and some 
-%light colors, Such as the ocean, deepened significantly. As we can see in
-%the historgram, the values about 20(175) are dispersed, then after
-%calculating, they turned into lower(higher) value which is not appeared in
-%the original figure.
