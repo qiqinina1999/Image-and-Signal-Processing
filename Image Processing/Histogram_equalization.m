@@ -1,3 +1,7 @@
+%% Project: Histogram Equalization
+%% Description: This project implements histogram equalization using MATLAB as part of academic coursework.
+
+
 close all;
 clc;
 
