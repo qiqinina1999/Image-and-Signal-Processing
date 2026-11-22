@@ -1,3 +1,7 @@
+Project: Image Fusion and Color Transformation
+Description: This project implements image fusion and color transformation using MATLAB as part of academic coursework.
+
+
 close all;
 clc;
 
