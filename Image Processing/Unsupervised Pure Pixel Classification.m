@@ -1,3 +1,6 @@
+%% Project: Unsupervised Pure Pixel Classification
+%% Description: This project implements unsupervised image classification using the K-means clustering algorithm in MATLAB as part of academic coursework.
+
 close all;
 clc;
 
