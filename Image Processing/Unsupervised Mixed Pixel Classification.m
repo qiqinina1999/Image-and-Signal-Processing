@@ -39,9 +39,3 @@ end
 colormap(gray)
 sgtitle('Unsupervised mixed pixel classification')
 saveas(gcf,'Unsupervised mixed pixel classification.jpg')
-
-% Without clear benchmarks, it is difficult for this method to classified
-% water, buildings and road.
-% Fortunately, it can classified the vegetation well.
-% If we can add the types of classification, such as different types of
-% roof (different materials) can become more correctly.
