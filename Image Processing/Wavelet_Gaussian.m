@@ -1,3 +1,6 @@
+%% Project: Wavelet Transform and Image Decomposition
+%% Description: This project implements image decomposition using low-pass and high-pass filter banks in MATLAB as part of academic coursework.
+
 close all;
 clc;
 
