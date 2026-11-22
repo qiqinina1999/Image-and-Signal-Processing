@@ -59,5 +59,3 @@ imagesc(G1),colormap(gray)
 figure
 imagesc(RDGX),colormap(gray)
 
-%it seem like only the edge of figure has some different, others is almost
-%same.
