@@ -74,7 +74,4 @@ title('High-boost mask')
 subplot(2,2,3) ,imagesc(B),colormap(gray) 
 subplot(2,2,4), imagesc(B2) 
 saveas(gcf,'High-boost mask.jpg')
-%the white color become to a little bit gray, but they are still similar to
-%original figure.
-
 
