@@ -1,5 +1,5 @@
-## Project: Color Image Enhancement 
-## Description: This project implements image enhancement techniques using MATLAB as part of academic coursework. 
+%% Project: Color Image Enhancement 
+%% Description: This project implements image enhancement techniques using MATLAB as part of academic coursework. 
 
 close all;
 clc;
