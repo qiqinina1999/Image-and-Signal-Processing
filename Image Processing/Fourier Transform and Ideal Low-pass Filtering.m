@@ -1,3 +1,6 @@
+%% Project: Fourier Transform and Ideal Low-pass Filtering
+%% Description: This project implements frequency domain image processing using MATLAB as part of academic coursework.
+
 close all
 clc;
 %% Reading an image
