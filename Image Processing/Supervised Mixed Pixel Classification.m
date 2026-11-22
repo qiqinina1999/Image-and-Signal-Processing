@@ -1,3 +1,7 @@
+%% Project: Supervised Mixed Pixel Classification
+%% Description: This project implements supervised mixed pixel classification using non-negative least squares in MATLAB as part of academic coursework.
+
+
 close all;
 clc;
 
