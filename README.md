@@ -3,25 +3,24 @@ MATLAB-based image and digital signal processing projects, including image enhan
 
 # Project
 ## 1.Image Processing
+
 • Color Image Enhancement
 
-• Contrast stretching
+• Contrast Stretching
 
-• Fourier Transform
+• Fourier Transform and Frequency Domain Analysis
 
-• Histogram Equalization
+• Histogram Equalization and Specification
 
-• Histogram Specification
+• Image Fusion and Color Transformation
 
-• Mask Operation
+• Pyramid Methods (Gaussian and Laplacian pyramid)
 
-• PCA color
+• Spatial Domain Image Filtering
 
-• Pyramid methods
+• Supervised and Unsuperived Mixed Pixel Classificaiton
 
-• Supervised mixed
-
-• Supervise pured
+• Supervised and Unsuperived Pure Pixel Classification
 
 • Wavelet Gaussian
 
