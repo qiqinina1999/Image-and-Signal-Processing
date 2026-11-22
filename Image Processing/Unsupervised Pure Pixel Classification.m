@@ -44,7 +44,3 @@ figure
 imagesc(type)
 title('Unsupervised pure pixel classification')
 saveas(gcf,'Unsupervised pure pixel classification.jpg')
-
-% I chose 7 random locations and hoped to have better results. 
-% Every time it showed different answer, but it is still difficult for this
-% method to classified different types so clearly.
