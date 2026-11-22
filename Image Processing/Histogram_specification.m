@@ -1,5 +1,6 @@
 %% Project: Histogram Specification
 %% Description: This project implements histogram specification using MATLAB as part of academic coursework.
+
 close all;
 clc;
 
