@@ -35,9 +35,6 @@ title('Original image')
 subplot(2,2,2), imagesc(A1)
 title('Histogram equalization')
 saveas(gcf,'Histogram equalization human.jpg')
-%The human picture is noisy and the brightness becomes high as you can see
-%the low values are dispersed and the high values is disappeared in the
-%historgram.
 
 [Y,X]=hist(B(:),x);
 figure(2)
@@ -56,3 +53,4 @@ title('Original image')
 subplot(2,2,2), imagesc(B1)
 title('Histogram equalization')
 saveas(gcf,'Histogram equalization landscape.jpg')
+
