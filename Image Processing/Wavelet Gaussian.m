@@ -22,17 +22,17 @@ XL=conv2(XL,wl','same');% vertical weighted average
 XLL=XL(2:2:end,:);
 X=conv2(B,wh,'same');% Gaussian Pyramid
 XH=X(:,2:2:end);
-XH=conv2(XH,wh','same'); %get highpass of horizontal and vertical
+XH=conv2(XH,wh','same'); 
 XHH=XH(2:2:end,:);
 X=conv2(B,wl,'same');
 XL=X(:,2:2:end);
 XL=conv2(XL,wh','same');
-XLH=XL(2:2:end,:); % first lowpass, then highpass
+XLH=XL(2:2:end,:); 
 
 X=conv2(B,wh,'same');
 XH=X(:,2:2:end);
 XH=conv2(XH,wl','same');
-XHL=XH(2:2:end,:);  % first highpass, then lowpass
+XHL=XH(2:2:end,:);  
 G1=XLL;
 min(min(ans))
 RDGX=G1-XLL;
@@ -58,4 +58,5 @@ figure
 imagesc(G1),colormap(gray)
 figure
 imagesc(RDGX),colormap(gray)
+
 
