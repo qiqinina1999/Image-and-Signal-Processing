@@ -14,11 +14,11 @@ end
 
 %% Unsupervised pure pixel classification
 % using K-mean
-A=rand(7,7)*255; %choose 7 random locations and 7 types
+A=rand(7,7)*255; 
 A1=zeros(7,7);
 type=zeros(512);
 tt1=zeros(1,7);
-while sum(sum(abs(A-A1)))>1 % find the closest location
+while sum(sum(abs(A-A1)))>1 
     A1=A;
     for i=1:512
         for i2=1:512
@@ -44,3 +44,4 @@ figure
 imagesc(type)
 title('Unsupervised pure pixel classification')
 saveas(gcf,'Unsupervised pure pixel classification.jpg')
+
