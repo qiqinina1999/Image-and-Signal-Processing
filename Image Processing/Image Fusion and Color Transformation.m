@@ -7,7 +7,7 @@ clc;
 
 %% Reading an image
 % Image fusion
-load fusion_spot % the file is uploaded on handout, I decided to use it 
+load fusion_spot
 a=double(A1(:,:,[3 2 1]));
 z=reshape(a,size(a,1)*size(a,2),size(a,3))';
 R=z-repmat(mean(z')',1,size(a,1)*size(a,2)); 
@@ -31,13 +31,13 @@ ZA=zeros(1,256);
 for i=1:256
     ZA(i)=sum(Y(1:i));
 end
-ha=a(:,:,size(a,3)); % use one of multispectral band
+ha=a(:,:,size(a,3));
 [y3,x3]=hist(ha(:),x);
 ZAF1=zeros(1,256);
 for i=1:256
     ZAF1(i)=sum(y3(1:i));
 end
-ZAF1=ZAF1/size(a,1)/size(a,2)*size(A,1)*size(A,2);%t ranform low resolution into high resolution
+ZAF1=ZAF1/size(a,1)/size(a,2)*size(A,1)*size(A,2);
 AF1=zeros(size(A,1),size(A,2));
 for i=1:256
     [n,N]=max(ZAF1>=ZA(i));
@@ -45,8 +45,8 @@ for i=1:256
 end
 
 F(:,:,size(a,3))=AF1;
-PCAF=fliplr(V)'*reshape(F,size(A,1)*size(A,2),size(a,3))';% return original coordinate space
-F1=reshape(PCAF',size(A,1),size(A,2),size(a,3));% get final figure
+PCAF=fliplr(V)'*reshape(F,size(A,1)*size(A,2),size(a,3))';
+F1=reshape(PCAF',size(A,1),size(A,2),size(a,3));
 F(:,:,size(a,3))=A;
 PCAF2=fliplr(V)'*reshape(F,size(A,1)*size(A,2),size(a,3))';
 F2=reshape(PCAF2',size(A,1),size(A,2),size(a,3));
@@ -64,7 +64,7 @@ title('PCA')
 colormap(gray)
 
 %% Color transform
-ah=rgb2hsv(a);% tranform into HSV and change the intensity
+ah=rgb2hsv(a);
 FC=zeros(size(A,1),size(A,2),size(a,3));
 Rat1=size(A,1)/size(a,1);
 Rat2=size(A,2)/size(a,2);
@@ -82,3 +82,4 @@ subplot(2,2,4)
 imagesc(FCR);
 title('Color transform')
 saveas(gcf,'Q1.jpg')
+
