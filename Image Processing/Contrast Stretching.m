@@ -1,5 +1,6 @@
 %% Project: Image Contrast Stretching
 %% Description: This project implements image contrast stretching techniques using MATLAB as part of academic coursework.
+
 close all;
 clc;
 
@@ -58,3 +59,4 @@ saveas(gcf,'Contrast stretching landscape.jpg')
 
        
        
+
