@@ -27,8 +27,6 @@ title('Low-pass (average) ')
 subplot(2,2,3) ,imagesc(B),colormap(gray) 
 subplot(2,2,4), imagesc(B1) 
 saveas(gcf,'Low-pass (average).jpg')
-% they seem like original figure, but in the human figure, the white color
-% become a little gray because of average.
 
 %% Low-pass (weighted average)
 M=ones(3)*-1;
@@ -43,7 +41,6 @@ title('Low-pass (weighted average)')
 subplot(2,2,3) ,imagesc(B),colormap(gray)
 subplot(2,2,4), imagesc(B1) 
 saveas(gcf,'Low-pass (weighted average).jpg')
-%it become almost gray and some pixel is white on the edge of clothes etc.
 
 %% high-pass&high-boost
 f=[0.1 0.8 0.1];
@@ -63,8 +60,6 @@ title('High-pass mask')
 subplot(2,2,3) ,imagesc(B),colormap(gray)
 subplot(2,2,4), imagesc(B1) 
 saveas(gcf,'High-pass mask.jpg')
-%they become almost gray and have some noises, I think it is because A(B)
-%and A1(B1) is almost same, so when A minus A1, it will become to 0.
 
 figure()
 subplot(2,2,1) ,imagesc(A),colormap(gray) 
@@ -74,4 +69,5 @@ title('High-boost mask')
 subplot(2,2,3) ,imagesc(B),colormap(gray) 
 subplot(2,2,4), imagesc(B2) 
 saveas(gcf,'High-boost mask.jpg')
+
 
