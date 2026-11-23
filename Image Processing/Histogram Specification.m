@@ -12,8 +12,7 @@ B=imread('landscape.JPG');
 B=rgb2gray(B);
 B=double(B);
 
-%% Histogram specification with a distribution I designed
-%design a normal distribution with a symmetrical grayscale of 20
+%% Histogram specification
 y=exp(-(x-127.5).^2);
 y=y/sum(y);
 ZA1=zeros(1,256);
@@ -26,16 +25,13 @@ for i=1:256
 end
 [Y,X]=hist(A1(:),x);
 figure()
-subplot(2,2,2),plot(X,Y),set(gca,'xlim',[0 255]) % Histogram after processing
+subplot(2,2,2),plot(X,Y),set(gca,'xlim',[0 255]) 
 title('Histogram') 
 subplot(2,2,1) ,imagesc(A),colormap(gray)
 title('Original image')
 subplot(2,2,3), imagesc(A1)
 title('Histogram equalization') 
 saveas(gcf,'Histogram Equalization human.jpg')
-%the human face, white clothes and wood are regarded as the same grayscale
-%the black shadow behind the door frame is regarded as the same grayscale.
-%the handrail with sunshine is considered white because of the sunlight and its original color is white.
 
 ZB1=zeros(1,256);
 for i=1:256
@@ -54,3 +50,4 @@ title('Original image')
 subplot(2,2,3), imagesc(B1) 
 title('Histogram equalization') 
 saveas(gcf,'Histogram Equalization landscape.jpg')
+
