@@ -8,13 +8,13 @@ A=imread('human.JPG');
 A=rgb2gray(A);
 A=double(A);
 B=imread('landscape.JPG');
-B=rgb2gray(B); % tranform into grey levels
+B=rgb2gray(B); 
 B=double(B); 
 
 %% Fourier transform
 FTA=fftshift(fft2(A)); % fast fourier transform
 FTB=fftshift(fft2(B)); 
-midAx=floor(size(A,2)/2)+1;% find the middle point in frequency domain 
+midAx=floor(size(A,2)/2)+1;
 midAy=floor(size(A,1)/2)+1;
 midBx=floor(size(B,2)/2)+1;
 midBy=floor(size(B,1)/2)+1;
@@ -36,3 +36,4 @@ B1=ifft2(ifftshift(FTB.*H));
 subplot(2,2,3) ,imagesc(B),colormap(gray) 
 subplot(2,2,4), imagesc(B1) 
 saveas(gcf,'Fourier transform.jpg') 
+
