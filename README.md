@@ -27,3 +27,9 @@ MATLAB-based image and digital signal processing projects, including image enhan
 
 • Butterworth High-pass(Low-pass) Filter
 
+# Tools
+**MATLAB**
+
+• Image Processing Toolbox
+
+• Signal Processing Toolbox
